@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartAI Assistant - SmartDCC</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f6f8;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #003366; /* SmartDCC Dark Navy */
+            color: #ffffff;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .logo-placeholder {
+            width: 40px;
+            height: 40px;
+            background-color: #00a3a6; /* SmartDCC Teal */
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        header h1 {
+            font-size: 1.4rem;
+            margin: 0;
+        }
+
+        main {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .chat-container {
+            width: 50%; /* Approx. 25% wider than original screenshot */
+            max-width: 900px;
+            height: 90vh; /* Nearly full page length */
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-header {
+            background-color: #007c92; /* Teal */
+            color: #ffffff;
+            padding: 12px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .chat-frame {
+            flex-grow: 1;
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #003366;
+            color: #ffffff;
+            font-size: 0.9rem;
+        }
+
+        @media screen and (max-width: 768px) {
+            .chat-container {
+                width: 95%;
+                height: 80vh;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-placeholder">S</div>
+        <h1>SmartAI Assistant</h1>
+    </header>
+
+    <main>
+        <div class="chat-container">
+            <div class="chat-header">SmartAI - SmartDCC Virtual Assistant</div>
+
+            <!-- Copilot Studio provided embed code -->
+            <iframe class="chat-frame"
+                src="https://copilotstudio.microsoft.com/environments/Default-d77ea84a-f7fd-4928-b8a3-64763b0a7710/bots/crba1_smartAi/webchat?__version__=2"
+                frameborder="0">
+            </iframe>
+
+        </div>
+    </main>
+
+    <footer>
+        © 2025 SmartDCC. All rights reserved.
+    </footer>
+
+</body>
+</html>

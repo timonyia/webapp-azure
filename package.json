@@ -1,0 +1,24 @@
+{
+  "name": "azure-static-web-app",
+  "version": "1.0.0",
+  "description": "A simple Azure Static Web App for SmartAI Assistant",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server ./src",
+    "build": "echo 'No build step required for static HTML'",
+    "deploy": "echo 'Deploying to Azure Static Web Apps...'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "keywords": [
+    "azure",
+    "static",
+    "web",
+    "app",
+    "smartai"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
