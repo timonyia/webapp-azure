@@ -11,6 +11,15 @@
   },
   "routes": [
     {
+      "route": "/.auth/*",
+      "allowedRoles": ["anonymous", "authenticated"]
+    },
+    {
+      "route": "/*",
+      "statusCode": 401,
+      "rewrite": "/.auth/login/aad"
+    },
+    {
       "route": "/*",
       "allowedPrincipals": ["aad:57e3020f-ba4f-42cc-8d5b-a119a699eb16"]
     }
