@@ -29,6 +29,7 @@ jobs:
           app_location: "/"          # ✅ Now pointing to the root
           api_location: ""           # No APIs configured
           output_location: ""        # ✅ No separate build folder
+          skip_app_build: true      # ✅ Skip the Oryx build process
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
